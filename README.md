@@ -1,18 +1,17 @@
-# Rmichaelthomas Seshat
+# homebrew-seshat
 
-## How do I install these formulae?
+Homebrew tap for [Seshat](https://github.com/rmichaelthomas/seshat-app) — govern what AI agents do on your machine.
 
-`brew install rmichaelthomas/seshat/<formula>`
+## Install
 
-Or `brew tap rmichaelthomas/seshat` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "rmichaelthomas/seshat"
-brew "<formula>"
+```bash
+brew tap rmichaelthomas/seshat
+brew install seshat
 ```
 
-## Documentation
+## What is Seshat?
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Seshat is a local governance layer for AI coding agents. Write permissions in plain English, get tamper-proof receipts for every action.
+
+→ [github.com/rmichaelthomas/seshat-app](https://github.com/rmichaelthomas/seshat-app)
+→ [liminate.dev](https://liminate.dev)
