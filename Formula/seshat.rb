@@ -293,18 +293,6 @@ class Seshat < Formula
     virtualenv_install_with_resources
   end
 
-  def caveats
-    <<~EOS
-      Homebrew requires new taps to be trusted before their formulae can be
-      installed. If `brew install seshat` fails right after tapping with an
-      "untrusted tap" error, run:
-
-        brew trust rmichaelthomas/seshat
-
-      then retry `brew install seshat`.
-    EOS
-  end
-
   test do
     assert_match "Usage", shell_output("#{bin}/seshat --help")
   end
