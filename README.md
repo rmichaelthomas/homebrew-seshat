@@ -9,14 +9,16 @@ brew tap rmichaelthomas/seshat
 brew install seshat
 ```
 
-If `brew install seshat` fails right after tapping with an "untrusted tap"
-error, Homebrew requires new third-party taps to be trusted once before
-their formulae can be installed:
+Every install artifact — the source tarball and all 56 PyPI dependency
+resources the formula pulls in — is pinned by SHA-256 in
+[`Formula/seshat.rb`](Formula/seshat.rb). If GitHub or PyPI ever served a
+different file at one of those URLs, `brew install` would fail rather
+than silently install something else.
 
-```bash
-brew trust rmichaelthomas/seshat
-brew install seshat
-```
+This doesn't make the formula signed — Homebrew has no formula-signing
+mechanism — and installing it runs Ruby code with your user privileges,
+the same as any Homebrew formula. Trust ultimately rests on who can push
+to this tap's `main` branch.
 
 ## What is Seshat?
 
