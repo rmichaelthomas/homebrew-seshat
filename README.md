@@ -22,7 +22,7 @@ to this tap's `main` branch.
 
 ## What is Seshat?
 
-Seshat is a local governance layer for AI coding agents. Write permissions in plain English, get tamper-proof receipts for every action.
+Seshat is a local environmental agent harness for AI coding agents. Write permissions in plain English, get tamper-proof receipts for every action.
 
 → [github.com/rmichaelthomas/seshat-app](https://github.com/rmichaelthomas/seshat-app)
 → [liminate.dev](https://liminate.dev)
