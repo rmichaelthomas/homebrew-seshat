@@ -1,7 +1,7 @@
 class Seshat < Formula
   include Language::Python::Virtualenv
 
-  desc "Local governance layer for AI coding agents"
+  desc "Local environmental agent harness for AI coding agents"
   homepage "https://github.com/rmichaelthomas/seshat-app"
   url "https://github.com/rmichaelthomas/seshat-app/archive/refs/tags/v2.0.0.tar.gz"
   sha256 "f438db89d613d10de58c7d58984674add0c30d6a7186548bd53e54fa6c41451b"
