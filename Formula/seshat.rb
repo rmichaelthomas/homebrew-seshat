@@ -3,8 +3,8 @@ class Seshat < Formula
 
   desc "Local environmental agent harness for AI coding agents"
   homepage "https://github.com/rmichaelthomas/seshat-app"
-  url "https://github.com/rmichaelthomas/seshat-app/archive/refs/tags/v2.1.1.tar.gz"
-  sha256 "6344193ac9c514266ca609af21b858a9a2608a536e3884a6a9e598e17b5ffbda"
+  url "https://github.com/rmichaelthomas/seshat-app/archive/refs/tags/v2.2.0.tar.gz"
+  sha256 "53b330f3516aa6f333baf4c5dedd14037d1fc0ac93e4b464f281ff62884277ae"
   license "Apache-2.0"
 
   depends_on "rust" => :build
